@@ -7,6 +7,137 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.button{
+    background-color: #14A085;
+    border: solid 1px #14A085;
+    border-radius: 5px;
+    padding: 15px 40px
+}
+
+.container{
+    width: 1152px;
+    margin: auto
+}
+
+/*Start Header */
+
+.header{
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 750px
+}
+
+.header .navbar{
+    text-align: center;
+    margin-bottom: 150px
+}
+
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0
+}
+
+.header .navbar ul li{
+    display: inline-block;
+    padding: 20px 40px
+}
+
+.header .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px
+}
+
+.header .slider{text-align: center}
+
+.header .slider h1{
+    font-size: 64px;
+    word-spacing: 3px
+}
+
+.header .slider p{
+    font-size: 30px;
+    word-spacing: 10px
+}
+
+.header .slider .icon{margin-top: 130px}
+
+.header .slider .icon i{margin: 7px}
+
+/*End Header*/
+
+/*Start Content*/
+
+.content{
+    background-color: #F5F6F8;
+    padding-top: 30px
+}
+
+/*End End Content*/
+
+/*Start Content-2*/
+
+.content-2 .info small{margin: 25px 0 5px 15px;font-weight: bold}
+
+.content-2 .info i{margin-left: 15px}
+
+/*End Content-2*/
+
+/*Grouping*/
+
+.content,
+.content-2{overflow: hidden}
+
+.content .info,
+.content-2 .info{
+    float: left;
+    width: 40%
+}
+
+.content .info h2,
+.content-2 .info h2{
+    text-transform: uppercase;
+    word-spacing: 4px;
+    color: #14A085;
+    margin: 0
+}
+
+.content .info p,
+.content-2 .info p{
+    line-height: 1.6;
+    color: #666;
+    margin: 45px 0 35px 0
+}
+
+.content .info button a,
+.content-2 .info button a,
+.header .slider button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.5px
+}
+
+.content-2 .info small,
+.content-2 .info img{display: block}
+
+.content .image,
+.content-2 .image{
+    float: left;
+    width: 60%
+}
+
+.content .image img,
+.content-2 .image img{max-width: 100%}
+
+.content .info h2,
+.content-2 .info h2,
+.content-2 .image img{padding-top: 80px}
 /*===== Our-Community Section =====*/
 .community{
     padding-top: 96px;
