@@ -13,6 +13,10 @@
         margin-top: -20px;
     }
     
+    html {
+        background-color: #17181C;
+    }
+    
     .button{
         background-color: #14A085;
         border: solid 1px #14A085;
@@ -21,9 +25,10 @@
         text-transform: uppercase;
         cursor: pointer;
     }
-
-    .container{
-        /*margin: auto;*/
+    
+    #parent-container {
+        padding-right: 15px;
+        padding-left: 15px;
     }
     
     /*Start Header */
@@ -74,12 +79,12 @@
     }
     
     .header .slider .icon{
-        margin-top: 163px;
+        margin-top: 155px;
     }
 
     .header .slider .icon i{
         margin: 7px;
-        font-size: 14pt;
+        font-size: 25px;
         cursor: pointer;
     }
     
@@ -103,12 +108,14 @@
     
     /*Grouping*/
     
+    .content-2 {
+        background-color: #FFF;
+    }
+    
     .content,
-    .content-2{overflow: hidden}
-
-    .content .info,
-    .content-2 .info{
-        padding: 30px 10px 10px 10px;
+    .content-2{
+        overflow: hidden;
+        padding: 50px 18px 1px 18px;
     }
 
     .content .info h2,
@@ -160,6 +167,8 @@
         padding-bottom: 50px;
         background-color: #f5f6f7;
         text-align: center;
+        padding-right: 18px;
+        padding-left: 18px;
     }
     .community .container{
         width: 100%;
@@ -189,26 +198,30 @@
         width: 100%;
     }
     
+    .community .slide img {
+        margin-bottom: 10px;
+    }
+    
     /*===== Subscribe Section =====*/
     
     .subscribe{
         padding-top: 20px;
         text-align: center;
         padding-bottom: 45px;
-        background: url("../images/subscribe-bg.jpg") no-repeat center / cover;   
+        background: url("../images/subscribe-bg.jpg") no-repeat center / cover; 
     }
     .subscribe h2{
         color: #fff;
         letter-spacing: 1px;
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-size: 13pt;
+        font-size: 11pt;
     }
     .subscribe input[type="email"]{
         border:none;
         width: 190px;
         height: 30px;
-        font-size: 13px;
+        font-size: 10px;
         padding: 0 10px;
         text-transform: uppercase;
         border-radius: 4px 0 0 4px;
@@ -216,14 +229,14 @@
     .subscribe button{
         color: #fff;
         width: 35px;
-        height: 30px;
+        height: 30.6px;
         margin: -4px;
         border: none;
         cursor: pointer;
         background-color: #16a085;
         border-radius: 0 4px 4px 0;
         position: relative;
-        top: -0.3px;
+        top: 1px;
         left: -1px;
     }
     
@@ -251,8 +264,7 @@
         text-transform: uppercase;
         background-color: #F5F6F8;
         text-align: center;
-        padding-bottom: 70px;
-        padding-top: 25px;
+        padding: 25px 5px 70px 5px;
     }
 
     #store h6 {
@@ -265,7 +277,7 @@
         word-spacing: 3px;
         letter-spacing: 1px;
         font-size: 10pt;
-        padding: 0 5px 0 5px;
+        line-height: 25px;
     }
 
     #store ul {
@@ -276,8 +288,10 @@
         display: inline-block;
         background-color: #1BBC9B;
         border-radius: 3px;
-        margin-right: 23px;
-        margin-left: -14px;
+        width: 80px;
+        text-align: center;
+        margin-right: 30px;
+        margin-left: -8px;
     }
 
     #store ul li a {
@@ -287,19 +301,17 @@
     }
 
     #store ul li a span {
-        font-size: 9pt;
-        position: relative;
-        top: -4px;
+        font-size: 10pt;
         font-weight: bold;
-        padding-left: 5px;
+        letter-spacing: 1px;
     }
 
     #store ul li a .fab {
         color: #FCFEFB;
         background-color: #17A086;
-        font-size: 15pt;
-        padding: 6px 8px 6px 8px;
-        border-radius: 0px 3px 3px 0px;
+        font-size: 17pt;
+        padding: 6px 30px 6px 30px;
+        border-radius: 0px 0px 3px 3px;
     }
     
     /* End store section */
@@ -310,6 +322,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         letter-spacing: 1px;
+        text-align: center;
     }
 
     footer ul {
@@ -326,7 +339,7 @@
 
     footer ul li a {
         text-decoration: none;
-        color: black;
+        color: white;
     }
 
     footer ul .pole {
@@ -340,13 +353,14 @@
         font-size: 8.5pt;
         font-weight: bold;
         margin-left: 7px;
+        color: white;
     }
 
     footer img {
-        float: right;
-        margin-top: -15px;
         width: 45px;
-        margin-right: 6px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
     }
 
     footer .clear {
