@@ -38,13 +38,13 @@
 
     .header .navbar ul li{
         display: inline-block;
-        padding: 20px 20px
+        padding: 20px 2%;
     }
 
     .header .navbar ul li a{
         text-decoration: none;
         color: #fff;
-        font-size: 20px
+        font-size: 18px;
     }
 
     .header .slider{text-align: center}
@@ -95,7 +95,6 @@
 
     .content-2 .info{
         float: left;
-        width: 50%;
     }
 
     .content .info h2,
@@ -138,8 +137,7 @@
         float: right;
     }
     .content-2 .image{
-        float: left;
-        width: 50%
+        display: none;
     }
 
     .content .image img,
@@ -275,7 +273,7 @@
     }
 
     #store p {
-        width: 650px;
+        padding: 0 22% 0 22%;
         margin-right: auto;
         margin-left: auto;
         word-spacing: 3px;
@@ -323,7 +321,7 @@
     /* Start footer */
 
     footer {
-        padding: 30px 60px;
+        padding: 30px 55px;
         letter-spacing: 1px;
     }
 

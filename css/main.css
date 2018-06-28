@@ -17,18 +17,18 @@
         padding: 15px 40px;
     }
 
-    .container{
-        width: 1152px;
-        margin: auto
-    }
-
     /*Start Header */
 
     .header{
         background-image: url(../images/header-bg.jpg);
         background-size: cover;
         color: #fff;
-        height: 750px
+        height: 750px;
+        width: 100%;
+    }
+    
+    .header .container{
+        margin: auto
     }
 
     .header .navbar{
@@ -77,6 +77,11 @@
         background-color: #F5F6F8;
         padding-top: 30px
     }
+    
+    .content .container{
+        width: 1152px;
+        margin: auto
+    }
 
     /*End Content 1*/
 
@@ -85,6 +90,11 @@
     .content-2 .info small{margin: 25px 0 5px 15px;font-weight: bold}
 
     .content-2 .info i{margin-left: 15px}
+    
+    .content-2 .container{
+        width: 1152px;
+        margin: auto
+    }
 
     /*End Content-2*/
 
@@ -247,8 +257,7 @@
         text-transform: uppercase;
         background-color: #F5F6F8;
         text-align: center;
-        padding-bottom: 70px;
-        padding-top: 25px;
+        padding: 25px 0 70px 0;
     }
 
     #store h6 {
@@ -258,7 +267,7 @@
     }
 
     #store p {
-        width: 800px;
+        padding: 0 22% 0 22%;
         margin-right: auto;
         margin-left: auto;
         word-spacing: 3px;
@@ -353,4 +362,3 @@
     }
 
     /* End footer */
-}
